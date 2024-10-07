@@ -1,0 +1,14 @@
+git init     # initializes the repo
+
+git status   # tells you about changes (i.e. the status)
+             # since the last commit
+
+# staging the commit #
+git add [filename] [filename] ... # files
+git add .   # all the changes
+
+# make the commit #
+get commit -m "a message"
+
+# push new local commits to the remote repo
+git push origin main
